@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Residence</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <!-- navbar -->
+        <nav class="nav">
+            <div class="logo">
+                <a href="./index.html" style="text-decoration: none;">
+                    <h2>Housing <br> <span id="black-title">Residence.</span></h2>
+                </a>
+            </div>
+
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="./index.html" class="nav_menu_link menu_active">Home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./tipe_rumah.html" class="nav_menu_link">House Types</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./tentang.html" class="nav_menu_link">About Us</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./kontak.html" class="nav_menu_link">Contact</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="./blog.html" class="nav_menu_link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    <!-- header -->
+
+    <!-- section home -->
+    <section class="wrapper-home" id="home">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">
+                        Welcome to <span> Housing Residence.</span>
+                    </h1>
+                    <p class="info-text">
+                        Experience a modern lifestyle in a home designed for comfort and quality living. Begin your journey of creating new stories and cherished memories with your family at Housing Residence.
+                    </p>
+
+                    <div class="btn_wrapper">
+                        <button class="btn_home view_more_btn">
+                            Contact Us <i class="fa fa-phone"></i>
+                        </button>
+                        <button class="btn_home documentation_btn">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <div class="team_img_wrapper">
+                        <img src="./img/home.png" alt="team-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section home -->
+
+    <!-- section facilities -->
+    <div class="container pt-4 pb-4 mt-2 mb-3 facilities">
+        <h1 class="text-center my-5">Available Facilities</h1>
+        <br><br>
+        <div class="row">
+            <div class="col-md-6">
+                <br><br>
+                <h2>Infinity Pool</h2>
+                <p>Enjoy breathtaking moments at our stunning infinity pool. Designed for luxury and elegance, the pool offers a seamless swimming experience while enjoying panoramic city views. It’s not just a place to exercise, but a haven for relaxation and peace.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/fasilitas/1.jpg" alt="infinity-pool" class="img-fluid"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/fasilitas/2.jpg" alt="gym" class="img-fluid"/>
+            </div>
+            <div class="col-md-6">
+                <br><br>
+                <h2>State-of-the-Art Fitness Center</h2>
+                <p>Stay fit and healthy with our modern fitness center, equipped with the latest technology and complete facilities. Our experienced trainers are ready to help you reach your fitness goals with personalized training programs tailored to your needs.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <br><br>
+                <h2>Exclusive Restaurants and Cafes</h2>
+                <p>Savor delightful dishes and refreshing drinks at our exclusive restaurants and cafes. Without leaving the premises, explore a variety of cuisines in a cozy ambiance that ensures an unforgettable dining experience every time.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/fasilitas/3.jpg" alt="restaurant-cafe" class="img-fluid"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/fasilitas/4.jpg" alt="green-space" class="img-fluid"/>
+            </div>
+            <div class="col-md-6">
+                <br><br>
+                <h2>Beautiful Parks and Green Spaces</h2>
+                <p>Unwind in our beautiful parks surrounded by lush greenery. With shaded trees and an aesthetically pleasing design, these areas offer a perfect retreat after a long day, serving as a tranquil oasis amidst bustling city life.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <br><br>
+                <h2>24/7 Security System with CCTV Monitoring</h2>
+                <p>At Housing Residence, your safety is our top priority. We provide an advanced security system operating 24/7, complemented by CCTV surveillance throughout the premises. This ensures a secure environment and peace of mind for all residents.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/fasilitas/5.jpg" alt="security" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+    <!-- section facilities -->
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN ==== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
